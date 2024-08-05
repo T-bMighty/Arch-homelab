@@ -1,5 +1,7 @@
 # Arch-homelab
-Bash script to install various homelab programs. This is my set up and after trying these programs on various operating systems I found arch(garuda) to be the most stable.
+!warning! this is my first script and can most likely be improved. It works for me currently and I wanted to share it.
+
+Bash script to install various homelab programs. I found arch(garuda) to be the most stable and out performed windows.
 
 I created a script from my journey.
 
