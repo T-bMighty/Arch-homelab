@@ -27,9 +27,9 @@ CasaOS(Docker based cloud solution)
 
 Who said you can't enjoy your own F.A.R.T.?
 
-To start F.A.R.T.ing
 
 '''
+
 git clone https://github.com/T-bMighty/Arch-homelab.git
 
 cd Arch-homelab.git
@@ -37,8 +37,11 @@ cd Arch-homelab.git
 sudo chmod +x fart.sh
  
 bash fart.sh ##lol
+
 or
+
 ./fart.sh
+
 '''
 
 
