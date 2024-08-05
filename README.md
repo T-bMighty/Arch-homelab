@@ -5,11 +5,17 @@ I created a script from my journey.
 
 # This script will install 
 Jellyfin with Nvidia transoding
+
 Ollama
+
 Docker
+
 Open-webui(to chat with ollama
+
 Pyenv - global python 3.10
+
 Stable-diffusion(create images with ai
+
 CasaOS(Docker based cloud solution)
 
 # F - Functional
@@ -33,8 +39,11 @@ or
 
 # After the script has finished 
 jellyfin can be found at yourip:8096
+
 Openwebui can be found at yourip:8080
+
 CasaOS will be found at yourip
+
  A log can be found in your Documents folder
 
 # Stable diffusion
