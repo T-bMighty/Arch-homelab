@@ -22,7 +22,7 @@ function update_system() {
 
 ### Jellyfin Setup ###
 echo "Installing Jellyfin..."
-sudo pacman -S jellyfin-git --noconfirm
+paru -S jellyfin-git --noconfirm
 sudo systemctl start jellyfin
 sudo systemctl enable jellyfin
 check_success "Jellyfin installation"
@@ -40,6 +40,7 @@ fi
 
 
 # Enable and start Docker
+sudo pacman -S docker
 sudo systemctl enable --now docker
 check_success "Docker enabling and starting"
 
