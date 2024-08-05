@@ -28,6 +28,11 @@ CasaOS(Docker based cloud solution)
 Who said you can't enjoy your own F.A.R.T.?
 
 
+# To use script
+
+- open a terminal
+- copy a paste the following line by line
+
 '''
 
 git clone https://github.com/T-bMighty/Arch-homelab.git
@@ -46,13 +51,47 @@ or
 
 
 # After the script has finished 
+This will create servers/websites/dockers for you to visit in your browser of choice
+
+open a browser and visit the following addresses to create accounts : the first accounts made are admin
+
+open a terminal and run the command ip addr . this will show your machines I.P. address.
+
+if your ip address has a /24 that is your subnet and not your machines I.P.
+
+Your machines I.P. is handed out by your router. If all else fails find your ip by logging into your router and identifying your machine. It will have it either clients or dhcp leases. 
+
 jellyfin can be found at yourip:8096
 
-Openwebui can be found at yourip:8080
+Openwebui(ollama) can be found at yourip:8080 
 
 CasaOS will be found at yourip
 
  A log can be found in your Documents folder
+
+ These self hosted server/websites/dockers cannot be accessed from outside your network unless you use a proxy or vpn. These can be made in casaos in the app store.
+
+ you may need to open ports for other devives in your network to connect
+
+ you can run the commands in a terminal
+
+ sudo ufw allow 8096 #for jellyfin
+
+ sudo ufw allow (whateverPORT) #enter in the port you'd like to open
+
+ sudo ufw enable # enables the firewall if it wasn't 
+
+ I highly recommend using portmaster as well
+
+ For them you need to find the app on the right side
+
+ Example
+
+ Click CasaOS gateway 
+
+ navigated to the blocked connection and click the three dots (options) - app settings
+
+ Toggle the setting force block incomming connections to allow connections.
 
 # Stable diffusion
 run stable diffusion with this command 
