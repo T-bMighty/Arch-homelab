@@ -23,11 +23,12 @@ CasaOS(Docker based cloud solution)
 # R - Robust
 # T - Technologies
 
-Hopefully one day, we can bring our F.A.R.T.'s together and create something beautiful
+Who said you can't enjoy your own F.A.R.T.?
 
 To start F.A.R.T.ing
+
 '''
-git clone
+git clone https://github.com/T-bMighty/Arch-homelab.git
 
 sudo chmod +x fart.sh
  
