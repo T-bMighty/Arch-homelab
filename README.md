@@ -4,24 +4,27 @@ Bash script to install various homelab programs. This is my set up and after try
 I created a script from my journey.
 
 # This script will install 
-Jellyfin with Nvidia transoding,
-Ollama, 
+Jellyfin with Nvidia transoding
+Ollama
 Docker
-Open-webui(to chat with ollama,
+Open-webui(to chat with ollama
 Pyenv - global python 3.10
 Stable-diffusion(create images with ai
 CasaOS(Docker based cloud solution)
 
-F - Functional
-A - Automated
-R - Robust
-T - Technologies
+# F - Functional
+# A - Automated
+# R - Robust
+# T - Technologies
 
-# To host your own F.A.R.T today.
+Hopefully one day, we can bring our F.A.R.T.'s together and create something beautiful
 
+To start F.A.R.T.ing
 '''
 git clone
+
 sudo chmod +x fart.sh
+ 
 bash fart.sh ##lol
 or
 ./fart.sh
