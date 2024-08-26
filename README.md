@@ -64,11 +64,11 @@ This will create servers/websites/dockers for you to visit in your browser of ch
 - To run:
   ```bash
   ./webui.sh --xformers 
-  or
-  ./webui.sh --xformers --listen
   ```
-- To connect from a different computer or to connect it to Open-webui:
+- To connect from a different computer or to connect it to Open-webui(Ollama):
   ```bash
+  ./webui.sh --xformers --listen
+  or
   ./webui.sh --xformers --listen --api
   ```
 
