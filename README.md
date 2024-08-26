@@ -6,16 +6,19 @@
 
 Bash script to install various homelab programs. I found arch(garuda) to be the most stable and out performed windows.
 
-I created a script from my journey.
+I want to emphasize that this will allow you to create/install anything with docker,pip and build a personal cloud/docker ecosystem. You'll be able to install basically anything from github.
+Javascript excluded(for now). If anything goes wrong use your AI sidekick to solve your problem. Pair that with Arch's yay and you have A LOT of capabilities. 
+
+- some of that packages will error and I will clean that up at some point. They are carry overs from ubuntu. sorry.Non-essesntial.
 
 # This script will install 
-- **Jellyfin**: Media server for streaming videos, music, photos, and more with support for transcoding.
+- **Jellyfin**: Media server for streaming videos, music, photos, and more with support for Nvidia transcoding.
 - **Ollama**: AI-powered chatbot or assistant.
 - **Docker**: Platform to run applications in containers, simplifying application deployment and management.
 - **Open-webui**: Web interface to interact with Ollama.
-- **Pyenv - global python 3.10**: Tool to manage multiple Python versions on the same machine.
-- **Stable-diffusion**: AI-based image generation tool.
-- **CasaOS**: Docker-based cloud solution for managing and accessing home servers.
+- **Pyenv - global python 3.10**: This will add your pyenv to your bash profile. Automatically starts when logged in.
+- **Stable-diffusion**: AI-based image generation tool. 
+- **CasaOS**: Docker-based cloud solution for managing and accessing home servers. I use this for its file sharing the most.
 
 # F - Functional
 # A - Automated
