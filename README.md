@@ -2,7 +2,9 @@
 ---
 
 # Arch-homelab
-!warning! this is my first script and can most likely be improved. It works for me currently and I wanted to share it.
+!warning! this is my first script and can most likely be improved. It works for me currently and I wanted to share it. 
+
+!UPDATE! Removed Automatic1111. Go to their homepage for instructions. Pyenv is still set up for you, so you get to skip a few steps.
 
 Bash script to install various homelab programs. I found arch(garuda) to be the most stable and out performed windows.
 
@@ -16,8 +18,7 @@ Javascript excluded(for now). If anything goes wrong use your AI sidekick to sol
 - **Ollama**: AI-powered chatbot or assistant.
 - **Docker**: Platform to run applications in containers, simplifying application deployment and management.
 - **Open-webui**: Web interface to interact with Ollama.
-- **Pyenv - global python 3.10**: This will add your pyenv to your bash profile. Automatically starts when logged in.
-- **Stable-diffusion**: AI-based image generation tool. 
+- **Pyenv - global python 3.10**: This will add your pyenv to your bash profile. Automatically starts when logged in. 
 - **CasaOS**: Docker-based cloud solution for managing and accessing home servers. I use this for its file sharing the most.
 
 # F - Functional
