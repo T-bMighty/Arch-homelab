@@ -80,12 +80,6 @@ source ~/.bash_profile
 pyenv install 3.10
 pyenv global 3.10
 
-# Check all dependencies
-echo "Installing Stable Diffusion..."
-wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
-chmod +x webui.sh
-./webui.sh &
-check_success "Stable Diffusion installation"
 
 ### CasaOS Setup ###
 echo "Installing CasaOS prerequisites..."
